@@ -1,0 +1,868 @@
+body{
+    margin: 0%;
+    padding: 0%
+}
+.nav{
+    width: 90%;
+    height: 10em;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.navchild1{
+    width: 25%;
+    height: 100%;
+    background-color: #9795c9;
+    text-align: center;
+    align-content: center;
+    color: white;
+    font-size: 1.5rem;
+    
+    
+}
+
+.navchild2{
+    width: 72%;
+    height: 100%;
+    display: flex; 
+    align-items: end;
+    background-color: #edeef0;
+
+}
+
+.navchild2 div{
+    display: flex;
+    width: 20%;
+    height: 120px;
+    background-color: white;
+    color: black;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    align-items:center ;
+    justify-content: center;
+    font-size: 1.2vw;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.navchild2 div:hover{
+    background-color: #cb9998;
+    transition: all 1s ease;
+}
+
+.child1{
+    margin-left: 20%;
+    background-color: #cb9998;
+    display: flex;
+    
+}
+.img1{
+    margin-top: 20px;
+    width: 90%;
+    margin-left: 5%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+
+}
+.img1 img{
+    height: 100vh;
+    width: 55%;
+}
+.img1>div{
+    width: 43%;
+    height: 100vh;
+    background-color: #edeef0;
+
+}
+.inner{
+    width: 90%;
+    font-size: 18px;
+    opacity: 0.8;
+    line-height: 25px;
+}
+.inner h3{
+    margin: 10% 5%;
+    font-size: 1.7vw;
+
+}
+.inner>p{
+    margin: 10% 5% 0% 5%;
+    font-size: 1.4vw;
+
+}
+
+.inner button{
+    height: 40px;
+    width: 9vw;
+    margin: 10% 5%;
+    background-color: #cb9998;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1.1vw;
+
+    
+}
+
+.inner button:hover{
+    background-color: #d07a78;
+}
+
+.footer1{
+    width: 90vw;
+    height: 30vh;
+    margin: 20px 5vw;
+    margin-top: 20px;
+    background-color: #9795c9;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.footer1 div{
+   width: 22vw;
+   height: 30vh;
+   color: white;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   margin-top: 10px;
+}
+.footer1 p{
+    font-size: 1.5vw;
+}
+
+.material-symbols-outlined{
+    font-size: 4.5vw;
+}
+
+
+.page2{
+    width: 90vw;
+    height: 100vh;
+    margin: 0px 5vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.div1,.div2{
+    width: 42vw;
+    height: 48vh;
+    background-color: #edeef0;
+    opacity: 0.8;
+
+}
+.div3{
+    width: 46.5vw;
+    margin-left: 1.5vw;
+
+}
+
+.div2{
+    background-color: rgb(178, 177, 177);
+}
+
+
+.page2 h3{
+    margin: 35px 50px;
+    font-size: 1.7vw;
+}
+
+.page2 p{
+    margin: 40px 50px;
+    font-size: 1.4vw;
+    line-height: 28px;
+
+}
+
+.page2 img{
+    height: 100vh;
+    width: 100%;
+}
+
+.page2 button{
+    height: 40px;
+    width: 9vw;
+    font-size: 1.1vw;
+    background-color: grey;
+    color: white;
+    border: none;
+    margin-left: 38%;
+    cursor: pointer;
+}
+
+.page2 button:hover{
+    background-color: black;
+    color: white;
+}
+
+
+.page3{
+    margin-left: 5%;
+    margin-top: 20px;
+    width: 90vw;
+    height: 20vh;
+    background-color: #99cdff;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    opacity: 0.8;
+   
+    
+}
+
+.page3 div{
+    width: 100%;
+    height:10vh;
+}
+
+.gallerySection{
+    display: flex;
+    justify-content: flex-end;
+}
+.gallerySection h3{
+    margin-right: 20px;
+    font-size: 1.6vw;
+}
+
+.showAll{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.showAll ul{
+    display: flex;
+}
+
+.showAll li{
+    margin-left: 30px;
+    font-size: 1.5vw;
+
+}
+
+.showAll li:nth-child(1){
+    color: white;
+}
+
+.showAll li:hover{
+    color: white;
+}
+
+
+.imgCont{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 5%;
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 15px;
+}
+
+.imgCont img{
+    width: 19%;
+}
+
+.page3Fotter{
+    margin-left: 5%;
+    margin-bottom: 40px;
+    width: 90%;
+    height: 30px;
+    background-color: #99cdff;
+}
+
+
+.contact{
+    margin-left: 5%;
+    margin-top: 20px;
+    width: 90%;
+    height: 8rem;
+    background-color: #99cc98;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.5vw;
+}
+
+
+.page4{
+    margin-left: 5%;
+    margin-top: 20px;
+    width: 90%;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.map, .details{
+    width: 35%;
+    height: 350px;
+    background-color: #edeef0;
+    font-size: 1.vw;
+
+}
+
+.address{
+    width: 26%;
+    height: 350px;
+    background-color: #edeef0;
+}
+#para1{
+    font-size: 1.4vw;
+    margin: 60px;
+}
+
+iframe{
+    width: 100%;
+    height: 350px;
+}
+
+.details p{
+    padding-bottom: 20px;
+    border-bottom: 1px solid;
+    opacity: 0.8;
+    font-size: 1.4vw;
+
+}
+
+ p{
+    font-size: 1.9vw;
+
+}
+
+#margin{
+    padding: 60px;
+}
+
+#msg{
+    padding-bottom: 60px;
+}
+
+.details button{
+    width: 9vw;
+    height: 40px;
+    border: none;
+    float: right;
+    color: white;
+    font-size: 1.2vw;
+    background-color: #99cc98;
+    cursor: pointer;
+}
+
+.details button:hover{
+    background-color: greenyellow;
+}
+
+.address p{
+    margin: 60px;
+    font-size: 17px;
+    opacity: .8;
+
+}
+
+.page4footer{
+    margin-left: 5%;
+    margin-top: 20px;
+    width: 90%;
+    height: 30px;
+    background-color:#99cc98;
+
+}
+
+.socialmedia{
+    margin:30px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.socialmedia i{
+    padding: 5px;
+    margin-left: 10px;
+    background-color: #d2d3d4;
+    font-size: 1rem;
+
+}
+
+.showAll ul{
+    font-size: 20px;
+    display: flex;
+}
+
+.showAll li{
+    margin-left: 30px;
+}
+
+
+
+@media only screen and (max-width: 480px) {
+    .nav{
+        width: 90%;
+        height: 9rem;
+    }
+    .navchild1{
+        width: 25%;
+        height: 60%;   
+        font-size: 3vw;     
+    }
+    
+    .navchild2{
+        width: 72%;
+        height: 60%;
+    
+    }
+    
+    .navchild2 div{
+        width: 15%;
+        height: 50px;
+        font-size: 2.2vw;
+    }
+
+    .img1{
+        height: 30vh;
+        margin-top: -30px;
+
+    }
+
+    .img1 img{
+        height: 30vh;
+        width: 55%;
+    }
+
+.img1>div{
+    width: 43%;
+    height: 30vh;
+
+}
+
+.inner h3{
+    font-size: 2.6vw;
+}
+
+.inner p{
+    font-size: 2.2vw;
+    line-height: 12px;
+    margin: 0% 5% 3% 5%;
+
+}
+.inner button{
+    height: 20px;
+    width: 15vw;
+    font-size: 2.1vw;
+    margin-top: -15vh;
+}
+
+.footer1{
+    width: 90%;
+    height: 4rem;
+    
+}
+
+.footer1 div{
+   width: 22%;
+   height: 4rem;
+}
+
+.footer1 p{
+    font-size: 2vw;
+}
+
+
+
+.material-symbols-outlined{
+    font-size: 4vw;
+}
+
+
+
+.page2{
+    margin-top: 20px;
+    width: 90%;
+    height: 25vh;
+    margin-left: 5%;
+}
+
+.div1,.div2{
+    width: 44%;
+    height: 12vh;
+
+}
+ .div3{
+    width: 56%;
+ }
+
+
+.page2 h3{
+    margin: 0px 0px;
+    font-size: 2.5vw;
+}
+
+.page2 p{
+    margin: 5px 5px;
+    font-size: 2vw;
+    line-height: 18px;
+
+}
+
+.page2 img{
+    height: 25vh;
+    width: 100%;
+}
+
+.page2 button{
+    height: 18px;
+    width:15vw;
+    margin-left: 38%;
+    font-size: 2vw;
+}
+
+
+.page3{
+    height: 6vh;
+    display: flex;
+    
+}
+
+.page3 div{
+    width: 100%;
+    height:1.8rem;
+}
+
+.gallerySection h3{
+    margin-right: 1.5rem;
+    font-size: 3vw;
+}
+
+.showAll li{
+    font-size: 2.5vw;
+}
+.contact{
+    height: 4rem;
+}
+#contact{
+    font-size: 3vw;
+}
+.page4{
+    margin-left: 5%;
+    margin-top: 20px;
+    width: 90%;
+    height: 25vh;
+    display: flex;
+}
+
+
+.map, .details{
+    width: 35%;
+    height: 20vh;
+
+}
+
+.address{
+    width: 26%;
+    height: 20vh;
+}
+
+
+iframe{
+    width: 100%;
+    height: 20vh;
+}
+
+.details p{
+    font-size: 2vw;
+    margin: 0%;
+}
+
+#margin{
+    padding: 1rem;
+}
+
+#msg{
+    padding-bottom: 2rem;
+}
+
+.details button{
+    width: 12vw;
+    height: 1rem;
+    margin-top: 0.5rem;
+    font-size: 2vw;
+}
+#para1{
+    margin: 0.5rem;
+    font-size: 2vw;
+
+}
+
+.page4footer{
+    margin-left: 5%;
+    width: 90%;
+    height: 3.5vh;
+}
+
+.socialmedia i{
+    padding: 5px;
+    margin-left: 10px;
+
+}
+
+.showAll ul{
+    font-size: 10px;
+    display: flex;
+}
+
+.showAll li{
+    margin-left: 30px;
+}
+
+.socialmedia i{
+    font-size: 0.7rem;
+    padding: 4px;
+    margin-left: 5px;
+    
+}
+
+
+}
+
+
+@media only screen and (min-width: 481px) and (max-width:780px) {
+
+    .nav{
+        width: 90%;
+        height: 9rem;
+    }
+    .navchild1{
+        width: 25%;
+        height: 60%;   
+        font-size: 3vw;     
+    }
+    
+    .navchild2{
+        width: 72%;
+        height: 60%;
+    
+    }
+    
+    .navchild2 div{
+        width: 15%;
+        height: 50px;
+        font-size: 2.2vw;
+    }
+
+    .img1{
+        height: 45vh;
+        margin-top: -30px;
+
+    }
+
+    .img1 img{
+        height: 45vh;
+        width: 55%;
+    }
+
+.img1>div{
+    width: 43%;
+    height: 45vh;
+
+}
+
+.inner h3{
+    font-size: 2.8vw;
+}
+
+.inner p{
+    font-size: 2.2vw;
+    line-height: 20px;
+    margin: 0% 5% 3% 5%;
+
+}
+.inner button{
+    height: 22px;
+    width: 15vw;
+    font-size: 2.1vw;
+    margin-top: -15vh;
+}
+
+.footer1{
+    width: 90%;
+    height: 5.5rem;
+    
+}
+
+.footer1 div{
+   width: 22%;
+   height: 5.5rem;
+}
+
+.footer1 p{
+    font-size: 2vw;
+}
+
+
+
+.material-symbols-outlined{
+    font-size: 4.5vw;
+}
+
+
+
+.page2{
+    margin-top: 20px;
+    width: 90%;
+    height: 40vh;
+    margin-left: 5%;
+}
+
+.div1,.div2{
+    width: 44%;
+    height: 20vh;
+
+}
+ .div3{
+    width: 56%;
+ }
+
+
+.page2 h3{
+    margin: 0px 0px;
+    font-size: 2.5vw;
+}
+
+.page2 p{
+    margin: 5px 5px;
+    font-size: 2vw;
+    line-height: 25px;
+
+}
+
+.page2 img{
+    height: 40vh;
+    width: 100%;
+}
+
+.page2 button{
+    height: 20px;
+    width:15vw;
+    margin-left: 38%;
+    font-size: 2vw;
+}
+
+
+.page3{
+    height: 9vh;
+    display: flex;
+    
+}
+
+.page3 div{
+    width: 100%;
+    height: 4vh;
+}
+
+.gallerySection h3{
+    margin-right: 1.5rem;
+    font-size: 3vw;
+}
+
+.showAll li{
+    font-size: 2.8vw;
+}
+.contact{
+    height: 5rem;
+}
+#contact{
+    font-size: 3.5vw;
+}
+.page4{
+    margin-left: 5%;
+    margin-top: 20px;
+    width: 90%;
+    height: 30vh;
+    display: flex;
+}
+
+
+.map, .details{
+    width: 35%;
+    height: 30vh;
+
+}
+
+.address{
+    width: 26%;
+    height: 30vh;
+}
+
+
+iframe{
+    width: 100%;
+    height: 30vh;
+}
+
+.details p{
+    font-size: 2vw;
+    margin: 0%;
+}
+
+#margin{
+    padding: 1rem;
+}
+
+#msg{
+    padding-bottom: 2rem;
+}
+
+.details button{
+    width: 12vw;
+    height: 2rem;
+    margin-top: 0.5rem;
+    font-size: 2vw;
+}
+#para1{
+    margin: 0.5rem;
+    font-size: 2vw;
+
+}
+
+.page4footer{
+    margin-left: 5%;
+    width: 90%;
+    height: 3.5vh;
+}
+
+.socialmedia i{
+    padding: 5px;
+    margin-left: 10px;
+
+}
+
+.showAll ul{
+    font-size: 10px;
+    display: flex;
+}
+
+.showAll li{
+    margin-left: 30px;
+}
+
+.socialmedia i{
+    font-size: 1rem;
+    padding: 4px;
+    margin-left: 5px;
+    
+}
+
+
+}
